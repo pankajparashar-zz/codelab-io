@@ -1,7 +1,3 @@
-# chat-example
+# Codelab IO
 
-This is the source code for a very simple chat example used for 
-the [Getting Started](http://socket.io/get-started/chat/) guide 
-of the Socket.IO website.
-
-Please refer to it to learn how to run this application.
+![Codelab ""](http://res.cloudinary.com/dw9fem4ki/image/upload/c_scale,w_800/v1452351776/Screen_Shot_2016-01-09_at_8.28.42_PM_ercz49.png)
