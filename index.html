@@ -37,19 +37,26 @@ Real-time in-browser collaborative code editor
 Made by @pankajparashar  => pankajparashar.com
 ----------------------------------------------
 
-function findSequence(goal) {
-    function find(start, history) {
-        if (start == goal)
-            return history;
-        else if (start > goal)
-            return null;
-        else
-            return find(start + 5, "(" + history + " + 5)") ||
-        find(start * 3, "(" + history + " * 3)");
-    }
-}
-return find(1, "1");
-    </textarea>
+Q: Compute the hamming distance of two strings
+def hamming(s1,s2):
+    """ returns the hamming number (char differences) between
+    the two strings """
+
+    #: initialize hamming distance to 0 and find min/max lengths
+    hamming_number = 0
+    minlength = min(len(s1),len(s2))
+    maxlength = max(len(s1),len(s2))
+
+    #: iterate through strings up to minlength and compare by each char
+    for i in range(minlength):
+        if (s1[i] != s2[i]):
+            hamming_number += 1
+
+    #: add remaining extra characters
+    hamming_number += maxlength - minlength
+
+    return hamming_number
+</textarea>
 
     <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
