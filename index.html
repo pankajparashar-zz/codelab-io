@@ -39,15 +39,15 @@ Made by @pankajparashar  => pankajparashar.com
 
 Q: Compute the hamming distance of two strings
 def hamming(s1,s2):
-    """ returns the hamming number (char differences) between
-    the two strings """
+    """ returns the hamming number (char differences) between the
+    two strings """
 
     #: initialize hamming distance to 0 and find min/max lengths
     hamming_number = 0
     minlength = min(len(s1),len(s2))
     maxlength = max(len(s1),len(s2))
 
-    #: iterate through strings up to minlength and compare by each char
+    #: iterate through strings up to minlength comparing each char 
     for i in range(minlength):
         if (s1[i] != s2[i]):
             hamming_number += 1
