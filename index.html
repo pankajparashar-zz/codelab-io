@@ -24,7 +24,7 @@
     </style>
   </head>
   <body>
-      <textarea id="code">
+      <textarea id="code" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   _____          _      _       _      _
  / ____|        | |    | |     | |    (_)
 | |     ___   __| | ___| | __ _| |__   _  ___
@@ -47,7 +47,7 @@ def hamming(s1,s2):
     minlength = min(len(s1),len(s2))
     maxlength = max(len(s1),len(s2))
 
-    #: iterate through strings up to minlength comparing each char 
+    #: iterate through strings up to minlength comparing each char
     for i in range(minlength):
         if (s1[i] != s2[i]):
             hamming_number += 1
