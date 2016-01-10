@@ -2,7 +2,7 @@
 
 v2.0
 ----
-![Codelab ""](http://res.cloudinary.com/dw9fem4ki/image/upload/c_scale,w_800/v1452411556/Screen_Shot_2016-01-10_at_12.43.30_PM_thtfb3.png)
+![Codelab ""](http://res.cloudinary.com/dw9fem4ki/image/upload/v1452432134/codelab_xrkofo.png)
 
 v1.0
 ----
